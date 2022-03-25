@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\garcia20374\\Desktop\\repos\\Entornos\\Bank\\Bank\\Bank.csproj",
-      "projectName": "Bank",
-      "projectPath": "C:\\Users\\garcia20374\\Desktop\\repos\\Entornos\\Bank\\Bank\\Bank.csproj",
+      "projectUniqueName": "C:\\Users\\garcia20374\\Desktop\\repos\\Entornos\\Bank\\Bank\\BankVGL.csproj",
+      "projectName": "BankVGL",
+      "projectPath": "C:\\Users\\garcia20374\\Desktop\\repos\\Entornos\\Bank\\Bank\\BankVGL.csproj",
       "packagesPath": "C:\\Users\\garcia20374\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\garcia20374\\Desktop\\repos\\Entornos\\Bank\\Bank\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,0 +1,6 @@
+C:\Users\garcia20374\Desktop\repos\Entornos\Bank_VGL\bin\Debug\Bank_VGL.dll
+C:\Users\garcia20374\Desktop\repos\Entornos\Bank_VGL\bin\Debug\Bank_VGL.pdb
+C:\Users\garcia20374\Desktop\repos\Entornos\Bank_VGL\obj\Debug\Bank_VGL.csproj.AssemblyReference.cache
+C:\Users\garcia20374\Desktop\repos\Entornos\Bank_VGL\obj\Debug\Bank_VGL.csproj.CoreCompileInputs.cache
+C:\Users\garcia20374\Desktop\repos\Entornos\Bank_VGL\obj\Debug\Bank_VGL.dll
+C:\Users\garcia20374\Desktop\repos\Entornos\Bank_VGL\obj\Debug\Bank_VGL.pdb
