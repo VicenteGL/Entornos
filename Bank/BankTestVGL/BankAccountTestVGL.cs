@@ -7,6 +7,12 @@ namespace BankTestVGL
     [TestClass]
     public class BankAccountTestVGL
     {
+        [TestMethod]
+        public void TestMethod1()
+        {
+
+        }
+
         // unit test code
         [TestMethod]
         public void Debit_WithValidAmount_UpdatesBalance()
@@ -23,6 +29,21 @@ namespace BankTestVGL
             double actual = account.Balance;
             Assert.AreEqual(expected, actual, 0.001, "Account not debited correctly");
         }
+
+        // Debit tests
+
+        [TestMethod]
+        public void Debit_FrozeAccountTest()
+        {
+            //preparación caso de uso
+            double debitAmount = 20.00;
+            double beginningBalance = 42.00;
+            BankAccountVGL account = new BankAccountVGL("Mr.Steve Roggers", beginningBalance);
+            account.FreezeAccount();
+            //acción a probar
+            account.Debit(debitAmount);
+        }
+
 
     }
 }
