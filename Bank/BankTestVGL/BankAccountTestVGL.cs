@@ -33,6 +33,7 @@ namespace BankTestVGL
         // Debit tests
 
         [TestMethod]
+        [ExpectedException(typeof(Exception))]
         public void Debit_FrozeAccountTest()
         {
             //preparación caso de uso

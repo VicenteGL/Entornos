@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bbbca043-50dc-4f21-b513-4224c3cb7908": {
+      "ProjectGuid": "bbbca043-50dc-4f21-b513-4224c3cb7908",
+      "DisplayName": "Bank_VGL",
+      "ColorIndex": 0
+    },
+    "0644d334-eda2-4d85-aa07-b372d2ecca9e": {
+      "ProjectGuid": "0644d334-eda2-4d85-aa07-b372d2ecca9e",
+      "DisplayName": "BankTestVGL",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
