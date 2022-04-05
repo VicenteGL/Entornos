@@ -21,8 +21,7 @@ namespace BankTestVGL
             double beginningBalance = 11.99;
             double debitAmount = 4.55;
             double expected = 7.44;
-            BankAccountVGL account = new BankAccountVGL("Mr. Bryan Walton",
-            beginningBalance);
+            BankAccountVGL account = new BankAccountVGL("Mr. Bryan Walton", beginningBalance);
             // acción a probar
             account.Debit(debitAmount);
             // afirmación de la prueba (valor esperado Vs. Valor obtenido)
@@ -31,7 +30,7 @@ namespace BankTestVGL
         }
 
         // Debit tests
-
+        //9, 10
         [TestMethod]
         [ExpectedException(typeof(Exception))]
         public void Debit_FrozeAccountTest()
@@ -45,6 +44,28 @@ namespace BankTestVGL
             account.Debit(debitAmount);
         }
 
+        //11
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Balance_OutofRangeMaxTest()
+        {
+            //preparación caso de uso
+            double debitAmount = 200.00;
+            double beginningBalance = 32.00;
+            BankAccountVGL account = new BankAccountVGL("Ms.Natasha", beginningBalance);
+            //acción a probar
+            account.Debit(debitAmount);
+        }
 
+        [TestMethod]
+        public void Balance_OutofRangeMinTest()
+        {
+            //preparación caso de uso
+            double debitAmount = -20.00;
+            double beginningBalance = 32.00;
+            BankAccountVGL account = new BankAccountVGL("Skinners", beginningBalance);
+            //acción a probar
+            account.Debit(debitAmount);
+        }
     }
 }
