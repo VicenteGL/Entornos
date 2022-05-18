@@ -1,0 +1,7 @@
+C:\Users\garcia20374\Desktop\repos\Entornos\RefactorizacionVicente\Fecha\bin\Debug\Fecha.exe.config
+C:\Users\garcia20374\Desktop\repos\Entornos\RefactorizacionVicente\Fecha\bin\Debug\Fecha.exe
+C:\Users\garcia20374\Desktop\repos\Entornos\RefactorizacionVicente\Fecha\bin\Debug\Fecha.pdb
+C:\Users\garcia20374\Desktop\repos\Entornos\RefactorizacionVicente\Fecha\obj\Debug\Fecha.csproj.AssemblyReference.cache
+C:\Users\garcia20374\Desktop\repos\Entornos\RefactorizacionVicente\Fecha\obj\Debug\Fecha.csproj.CoreCompileInputs.cache
+C:\Users\garcia20374\Desktop\repos\Entornos\RefactorizacionVicente\Fecha\obj\Debug\Fecha.exe
+C:\Users\garcia20374\Desktop\repos\Entornos\RefactorizacionVicente\Fecha\obj\Debug\Fecha.pdb

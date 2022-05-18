@@ -31,7 +31,7 @@ namespace Fecha
         /// <param name="dia">Dia</param>
         /// <param name="bi">Indica si es bisiesto</param>
         public Fecha(int mes, int anyo, int dia, bool bi)
-        {
+        {// quitar bi, refactorizar switch
             if (anyo >= 1 && anyo <= 2500)
             {
                 this.year = anyo;
@@ -47,6 +47,7 @@ namespace Fecha
             else
                 this.month = 1;
             int diasMes = 0;
+
             switch (month)
             {
                 case 1:
