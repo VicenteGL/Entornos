@@ -34,45 +34,36 @@ namespace Fecha
         {// quitar bi, refactorizar switch
             if (anyo >= 1 && anyo <= 2500)
             {
-                this.year = anyo;
+                year = anyo;
             }
             else
             {
-                this.year = 1;
+                year = 1;
             }
             bool bisiesto = EsBisiesto();
             
             if (mes >= 1 && mes <= 12)
-                this.month = mes;
+                month = mes;
             else
-                this.month = 1;
+                month = 1;
             int diasMes = 0;
-
-            switch (month)
+            
+            if(month == 2)
             {
-                case 1:
-                case 3:
-                case 5:
-                case 7:
-                case 8:
-                case 10:
-                case 12:
-                    diasMes = 31;
-                    break;
-                case 4:
-                case 6:
-                case 9:
-                case 11:
-                    diasMes = 30;
-                    break;
-                case 2: // verificación de año bisiesto
-                    if (bisiesto)
-                        diasMes = 29;
-                    else
-                        diasMes = 28;
-                    break;
+                if (bisiesto)
+                    diasMes = 29;
+                else
+                    diasMes = 28;
             }
-
+            else if(new int[] { 4, 6, 9, 11 }.Contains(month))
+            {
+                diasMes = 30;
+            }
+            else
+            {
+                diasMes = 31;
+            }
+            
             if (dia >= 1 && dia <= diasMes)
                 this.day = dia;
             else
