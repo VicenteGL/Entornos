@@ -1,0 +1,7 @@
+C:\Users\garcia20374\Desktop\repos\Entornos\TestDocumentación\TestDocumentación\bin\Debug\TestDocumentación.exe.config
+C:\Users\garcia20374\Desktop\repos\Entornos\TestDocumentación\TestDocumentación\bin\Debug\TestDocumentación.exe
+C:\Users\garcia20374\Desktop\repos\Entornos\TestDocumentación\TestDocumentación\bin\Debug\TestDocumentación.pdb
+C:\Users\garcia20374\Desktop\repos\Entornos\TestDocumentación\TestDocumentación\obj\Debug\TestDocumentación.csproj.AssemblyReference.cache
+C:\Users\garcia20374\Desktop\repos\Entornos\TestDocumentación\TestDocumentación\obj\Debug\TestDocumentación.csproj.CoreCompileInputs.cache
+C:\Users\garcia20374\Desktop\repos\Entornos\TestDocumentación\TestDocumentación\obj\Debug\TestDocumentación.exe
+C:\Users\garcia20374\Desktop\repos\Entornos\TestDocumentación\TestDocumentación\obj\Debug\TestDocumentación.pdb
